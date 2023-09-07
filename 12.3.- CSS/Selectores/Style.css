@@ -1,0 +1,88 @@
+/* selectores */
+
+/* selector universal, aplica a todos los items */
+
+/* *{
+    font-size: 50px;
+    color: hotpink;
+} */
+
+/* selector de etiqueta */
+
+/* h1{
+    background-color: indigo;
+}
+
+h2{
+    color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+}
+
+p{
+    text-align: center;
+} */
+
+/* Etiquetas múltiples */
+
+/* h1,h2,h3,h4,h5,h6{
+    color:red;
+    background-color: black;
+}
+h1{
+    font-size: 72px;
+} */
+
+/* selectores de clase e ID  */
+/* 
+p.parrafo{
+    color: white;
+    font-size: 48px;
+    background-color: black;
+}
+#segun{
+    color: white;
+    font-size: 24px;
+    background-color: chocolate;
+} */
+
+/* Selector descendente */
+/* p a{
+    color: hotpink;
+} */
+
+/* selector hijo */
+
+/* h1 > a{
+    color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+}
+
+p > a{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: violet;
+} */
+
+/* selector adyacente */
+
+/* h2 + h3 { //al elemento h3 que esté mas cerca del h2 aplícale estas reglas
+    color: fuchsia;
+    font-weight: bold;
+    background-color: gray;
+} */
+
+
+/* Selector de atributo */
+
+[class]{ 
+    color: red;
+    font-size: 48px;
+    background-color: lightcoral;
+}
+
+[class="parrafo"]{
+    color: lightgoldenrodyellow;
+    
+}
